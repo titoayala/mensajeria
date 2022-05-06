@@ -86,8 +86,12 @@ html body{
 }
 
 .principal img{
-    width: 300px;
-  }
+    width: 30%;
+}
 
-
+.principal p{
+    margin:0;
+    width: 40%;
+    text-align: center;
+}
 
