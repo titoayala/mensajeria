@@ -47,6 +47,7 @@ html, body{
     justify-content: center;
     align-items: center;
     border: solid 1px #E8EBE4;
+   
 }
 
 .boton div{
@@ -55,6 +56,13 @@ html, body{
     background-color: #A491D2;
     color: white;
     text-align: center;
+    text-transform: uppercase;
+}
+.boton div:hover{
+    background-color: #cdcad6;
+    color: #A491D2;
+    font-style: italic;
+    cursor: pointer;
 }
 
 .chat{
