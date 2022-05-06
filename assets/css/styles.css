@@ -1,0 +1,93 @@
+html body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.contactos {
+    flex-direction: column;
+    background-color: white; 
+    width: 25%; 
+}
+
+.lista{
+    margin: 0;
+    padding: 0;  
+}
+
+.estado{
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 1px #E8EBE4;
+}
+
+.activo{
+    width: 50%;
+    display: flex;
+}
+
+.iconos{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boton{
+    height: 15vh;
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #E8EBE4;
+   
+}
+
+.boton div{
+    width: 75%;
+    height: 60%;
+    background-color: #A491D2;
+    color: white;
+    text-align: center;
+}
+
+.chat{
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    border: solid 1px #E8EBE4;
+}
+
+.avatar{
+    border-radius: 100%;
+    width:40px;
+    margin-left: 10%;
+}
+
+.info h6, .info h3, .info p{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-left: 10%;
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#E8EBE4;
+}
+
+.principal img{
+    width: 300px;
+  }
+
+
+
